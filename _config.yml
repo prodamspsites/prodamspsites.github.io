@@ -1,0 +1,12 @@
+# Site settings
+title: "Prodam SP Sites - Documentação"
+description: > # this means to ignore newlines until "baseurl:"
+  Repositório de documentação para Prodam SP Sites.
+  A documentação deverá contemplar a instalação, padrões de desenvolvimento e funcionalidades disponibilizadas no site.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://prodamspsites.github.io/" # the base hostname & protocol for your site
+github_username:  prodamspsites
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
