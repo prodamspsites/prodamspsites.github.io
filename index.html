@@ -2,8 +2,32 @@
 layout: default
 ---
 
-TODO
+<div class="home">
 
-{% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
-{% endfor %}
+  <h1 class="page-heading">Repositórios</h1>
+
+  <ul>
+    {% for repository in site.github.public_repositories %}
+      <li> 
+        <a href="{{ repository.html_url }}" >
+          {{ repository.name }}
+        </a>
+      </li>
+    {% endfor %}
+  <ul>
+
+  <h2 class="page-heading">Publicações</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">Assine <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
