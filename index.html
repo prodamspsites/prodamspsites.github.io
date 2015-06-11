@@ -14,16 +14,16 @@ layout: default
         </a>
       </li>
     {% endfor %}
-  <ul>
+  </ul>
 
   <h2 class="page-heading">Publicações</h1>
 
-  <ul class="post-list">
+  <ul class="post">
     {% for post in site.posts %}
       <li>
-        <h2>
+        <h4>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        </h4>
       </li>
     {% endfor %}
   </ul>
