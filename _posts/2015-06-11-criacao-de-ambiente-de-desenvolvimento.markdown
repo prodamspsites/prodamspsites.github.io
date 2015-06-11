@@ -30,6 +30,7 @@ Baixar e rodar o repositório de buildout da Prodam SP Sites
 
 	$ git clone git@github.com:prodamspsites/prodam_buildout.git
 	$ cd prodam_buildout/
+	$ mkdir downloads/
 	$ ../buildout.python/bin/virtualenv-2.7 py27
 	$ source ./py27/bin/activate
 	$ python2.7 boostrap.py -c development.cfg
