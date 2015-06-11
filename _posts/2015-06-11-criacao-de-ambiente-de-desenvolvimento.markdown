@@ -22,6 +22,8 @@ Baixar e rodar o buildout.python
 	$ python2.7 boostrap.py
 	$ ./bin/buildout -vvvt 20
 
+Para o ambiente de desenvolvimento é pressuposto que irão comitar alterações ao repositório e, dessa forma, é necessário ter conta no GitHub e cadastrar a chave pública conforme procedimento [deste link](/ssh/rsa/github/dev/2015/06/11/adicionando-chave-rsa.html "Procedimento para adicionar chave pública no GitHub").
+
 Baixar e rodar o repositório de buildout da Prodam SP Sites
 
 #### Dentro da pasta de projetos
