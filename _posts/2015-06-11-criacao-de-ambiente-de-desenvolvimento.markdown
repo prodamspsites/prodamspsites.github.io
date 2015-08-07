@@ -11,7 +11,7 @@ Usando CentOS 6.5 ou 7
 
 Instalar as bibliotecas conforme:
 
-	$ sudo yum install python-devel readline-devel gcc gcc-c++ lynx wget bzip2 bzip2-devel bzip2-lib libjpeg-devel make patch openssl-devel zlib-devel epel-release bash-completion
+	$ sudo yum install python-devel readline-devel gcc gcc-c++ lynx wget bzip2 bzip2-devel bzip2-lib libjpeg-devel make patch openssl-devel zlib-devel epel-release bash-completion git
 
 Baixar e rodar o buildout.python
 
